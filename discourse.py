@@ -46,4 +46,3 @@ class DiscourseDatabase():
             if place in topic["tags"]:
                 return f'<a href="https://kb.hs3.pl/tag/{place}">{place}</a>'
         return "unknown"
-

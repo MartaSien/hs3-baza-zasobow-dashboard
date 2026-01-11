@@ -3,6 +3,7 @@ Class to generate a csv file based on data fetched via Discourse REST API
 '''
 import requests
 import json
+import csv
 
 class Discourse():
     def __init__(self, url):
@@ -20,13 +21,17 @@ class Discourse():
         res_json = json.loads(res.text)
         return res_json
 
-    def get_category_topics(self, category_id: str) -> requests.Response:
-        """Get topics from a Discourse category"""
+    def category_topics_csv(self, category_id: str) -> requests.Response:
+        """Save category topics to a csv file"""
         cat_data = self.get_category_data(category_id)
-        for topic in cat_data["topic_list"]["topics"]:
-            print(f'{topic["id"]}, {topic["title"]}, {topic["tags"]}, {self.url}t/{topic["id"]}')
+        columns = ["id", "title", "tags", "url"]
+        with open('zasoby.csv', 'w', encoding='UTF8') as f:
+            write = csv.writer(f)
+            write.writerow(columns)
+            for topic in cat_data["topic_list"]["topics"]:
+                write.writerow([topic["id"], topic["title"], topic["tags"], f'{self.url}t/{topic["id"]}'])
 
-    
+
 if __name__=="__main__":
     dis = Discourse("https://kb.hs3.pl/")
-    dis.get_category_topics(9)
+    dis.category_topics_csv(9)

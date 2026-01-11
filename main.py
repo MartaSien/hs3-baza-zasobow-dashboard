@@ -1,23 +1,19 @@
-DISCOURSE_URL = "https://kb.hs3.pl/" # Database is hosted here
-DISCOURSE_CATEGORY = 9 # Database is stored in this Discourse category
-
 import os, shutil
 from jinja2 import Environment, FileSystemLoader
 import pandas as pd
-
-from discourse import Discourse
+from discourse import DiscourseDatabase
 
 def generate_dashboard():
     """Generate dashboard from zasoby.csv file"""
+    print("Generating HTML dashboard")
     website_folder = "docs"
     data = pd.read_csv("zasoby.csv")
     env = Environment(loader=FileSystemLoader("template"))
-    
+    print("Removing old website files")
     shutil.rmtree(f"./{website_folder}")
     os.mkdir(f"./{website_folder}")
+    print("Creating a new website")
     shutil.copytree("template/static", f"{website_folder}/static")
-    
-    print("Creating page to static file.")
     template = env.get_template("_main_layout.html")
     with open(f"{website_folder}/index.html", "w+", encoding="utf-8") as file:
         header_row = data.columns.values.tolist()
@@ -27,10 +23,6 @@ def generate_dashboard():
 
 
 if __name__ == "__main__":
-    print(f"Discourse database: {DISCOURSE_URL}{DISCOURSE_CATEGORY}")
-    print("Fetching database data to zasoby.csv")
-    dis = Discourse(DISCOURSE_URL)
-    dis.category_topics_csv(DISCOURSE_CATEGORY)
-    print("Generating HTML dashboard")
+    DiscourseDatabase()
     generate_dashboard()
     print("Done!")

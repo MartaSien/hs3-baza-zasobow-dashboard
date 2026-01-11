@@ -5,29 +5,45 @@ import requests
 import json
 import csv
 
-class Discourse():
-    def __init__(self, url):
-        self.url = url
 
-    def get_category_data(self, category_id: str) -> requests.Response:
-        """Get data related to a Discourse category"""
+DISCOURSE_URL = "https://kb.hs3.pl" # Database is hosted here
+CATEGORY_ID = 9 # Database category ID
+
+class DiscourseDatabase():
+    def __init__(self):
+        data = self.get_category_data()
+        self.category_topics_csv(data)
+
+    def get_category_data(self) -> requests.Response:
+        """Get data from a Discourse category"""
         headers = {
             "content-type": "application/json",
         }
-        url = f"{self.url}/c/{category_id}.json"
+        url = f"{DISCOURSE_URL}/c/{CATEGORY_ID}.json"
+        print(f"Fetching data from {url}")
         res = requests.get(url, headers)
         res.raise_for_status()
-
         res_json = json.loads(res.text)
         return res_json
 
-    def category_topics_csv(self, category_id: str) -> requests.Response:
+    def category_topics_csv(self, category_data) -> None:
         """Save category topics to a csv file"""
-        cat_data = self.get_category_data(category_id)
-        columns = ["id", "title", "tags"]
+        columns = ["id", "title", "place", "tags"]
+        records = category_data["topic_list"]["topics"]
         with open('zasoby.csv', 'w', encoding='UTF8') as f:
             write = csv.writer(f)
             write.writerow(columns)
-            for topic in cat_data["topic_list"]["topics"]:
-                html_url = f'<a href="{self.url}t/{topic["id"]}">{topic["title"]}</a>'
-                write.writerow([topic["id"], html_url, topic["tags"]])
+            for topic in records:
+                html_url = f'<a href="{DISCOURSE_URL}/t/{topic["id"]}">{topic["title"]}</a>'
+                place = self.get_place(topic)
+                write.writerow([topic["id"], html_url, place, topic["tags"]])
+        print(f"New zasoby.csv generated with {len(records)} records")
+
+    def get_place(self, topic):
+        """Get place of a topic"""
+        places = ["cow-work", "garage", "workshop"]
+        for place in places:
+            if place in topic["tags"]:
+                return f'<a href="https://kb.hs3.pl/tag/{place}">{place}</a>'
+        return "unknown"
+

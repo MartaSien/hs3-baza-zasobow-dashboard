@@ -1,20 +1,20 @@
-id,title,tags
-45,"<a href=""https://kb.hs3.pl/t/45"">Jak stworzyć nowy wpis do bazy zasobów Hackerspace Trójmiasto?</a>",[]
-20,"<a href=""https://kb.hs3.pl/t/20"">O kategorii: Baza Wiedzy Hackerspace'u</a>",[]
-108,"<a href=""https://kb.hs3.pl/t/108"">PC Engines APU2 Router Box</a>","['cow-work', 'networking']"
-61,"<a href=""https://kb.hs3.pl/t/61"">HS3 BOFH</a>","['cow-work', 'garage', 'events', 'bofh']"
-93,"<a href=""https://kb.hs3.pl/t/93"">King Bob</a>",['cow-work']
-92,"<a href=""https://kb.hs3.pl/t/92"">Drukarka 3D Creality K1 Max</a>","['tools', 'workshop', '3d-print']"
-91,"<a href=""https://kb.hs3.pl/t/91"">Drukarka 3D Creality Ender 3</a>","['tools', 'workshop', '3d-print']"
-90,"<a href=""https://kb.hs3.pl/t/90"">Chciejlista</a>",[]
-85,"<a href=""https://kb.hs3.pl/t/85"">Komu powinien służyć Spejs</a>",[]
-84,"<a href=""https://kb.hs3.pl/t/84"">Budżet</a>",[]
-83,"<a href=""https://kb.hs3.pl/t/83"">Hackerspace Dragon Dreaming</a>",[]
-82,"<a href=""https://kb.hs3.pl/t/82"">Biblioteka</a>","['cow-work', 'books']"
-66,"<a href=""https://kb.hs3.pl/t/66"">Apteczki</a>","['cow-work', 'garage', 'bhp']"
-44,"<a href=""https://kb.hs3.pl/t/44"">Brayton Power</a>","['garage', 'projects']"
-52,"<a href=""https://kb.hs3.pl/t/52"">Evil Submarine</a>","['cow-work', 'projects']"
-50,"<a href=""https://kb.hs3.pl/t/50"">Infinity mirror (duże)</a>","['garage', 'projects']"
-47,"<a href=""https://kb.hs3.pl/t/47"">Cricut Maker 3 ploter tnący</a>","['tools', 'workshop']"
-41,"<a href=""https://kb.hs3.pl/t/41"">Wiertarka PSB 500 RE BOSCH</a>","['garage', 'tools']"
-46,"<a href=""https://kb.hs3.pl/t/46"">What the Duck</a>","['cow-work', 'wled']"
+id,title,place,tags
+45,"<a href=""https://kb.hs3.pl/t/45"">Jak stworzyć nowy wpis do bazy zasobów Hackerspace Trójmiasto?</a>",unknown,[]
+20,"<a href=""https://kb.hs3.pl/t/20"">O kategorii: Baza Wiedzy Hackerspace'u</a>",unknown,[]
+108,"<a href=""https://kb.hs3.pl/t/108"">PC Engines APU2 Router Box</a>","<a href=""https://kb.hs3.pl/tag/cow-work"">cow-work</a>","['cow-work', 'networking']"
+61,"<a href=""https://kb.hs3.pl/t/61"">HS3 BOFH</a>","<a href=""https://kb.hs3.pl/tag/cow-work"">cow-work</a>","['cow-work', 'garage', 'events', 'bofh']"
+93,"<a href=""https://kb.hs3.pl/t/93"">King Bob</a>","<a href=""https://kb.hs3.pl/tag/cow-work"">cow-work</a>",['cow-work']
+92,"<a href=""https://kb.hs3.pl/t/92"">Drukarka 3D Creality K1 Max</a>","<a href=""https://kb.hs3.pl/tag/workshop"">workshop</a>","['tools', 'workshop', '3d-print']"
+91,"<a href=""https://kb.hs3.pl/t/91"">Drukarka 3D Creality Ender 3</a>","<a href=""https://kb.hs3.pl/tag/workshop"">workshop</a>","['tools', 'workshop', '3d-print']"
+90,"<a href=""https://kb.hs3.pl/t/90"">Chciejlista</a>",unknown,[]
+85,"<a href=""https://kb.hs3.pl/t/85"">Komu powinien służyć Spejs</a>",unknown,[]
+84,"<a href=""https://kb.hs3.pl/t/84"">Budżet</a>",unknown,[]
+83,"<a href=""https://kb.hs3.pl/t/83"">Hackerspace Dragon Dreaming</a>",unknown,[]
+82,"<a href=""https://kb.hs3.pl/t/82"">Biblioteka</a>","<a href=""https://kb.hs3.pl/tag/cow-work"">cow-work</a>","['cow-work', 'books']"
+66,"<a href=""https://kb.hs3.pl/t/66"">Apteczki</a>","<a href=""https://kb.hs3.pl/tag/cow-work"">cow-work</a>","['cow-work', 'garage', 'bhp']"
+44,"<a href=""https://kb.hs3.pl/t/44"">Brayton Power</a>","<a href=""https://kb.hs3.pl/tag/garage"">garage</a>","['garage', 'projects']"
+52,"<a href=""https://kb.hs3.pl/t/52"">Evil Submarine</a>","<a href=""https://kb.hs3.pl/tag/cow-work"">cow-work</a>","['cow-work', 'projects']"
+50,"<a href=""https://kb.hs3.pl/t/50"">Infinity mirror (duże)</a>","<a href=""https://kb.hs3.pl/tag/garage"">garage</a>","['garage', 'projects']"
+47,"<a href=""https://kb.hs3.pl/t/47"">Cricut Maker 3 ploter tnący</a>","<a href=""https://kb.hs3.pl/tag/workshop"">workshop</a>","['tools', 'workshop']"
+41,"<a href=""https://kb.hs3.pl/t/41"">Wiertarka PSB 500 RE BOSCH</a>","<a href=""https://kb.hs3.pl/tag/garage"">garage</a>","['garage', 'tools']"
+46,"<a href=""https://kb.hs3.pl/t/46"">What the Duck</a>","<a href=""https://kb.hs3.pl/tag/cow-work"">cow-work</a>","['cow-work', 'wled']"

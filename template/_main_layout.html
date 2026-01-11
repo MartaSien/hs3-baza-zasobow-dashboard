@@ -1,0 +1,28 @@
+{% extends "_base_template.html" %} {% block body %}
+<div id="site-body" class="container-fluid">
+  <div class="row flex-nonwrap">
+    <div class="sidenav">{% block sidenav %}{% endblock sidenav %}</div>
+    <div class="main">
+      <h1>Baza Zasobów Hackerspace Trójmiasto</h1>
+      <table id="dashboardTable">
+        <thead>
+          <tr>
+            {% for cell in t_header %}
+            <td>{{cell}}</td>
+            {% endfor %}
+          </tr>
+        </thead>
+        <tbody>
+          {% for row in t_body %}
+          <tr>
+            {% for cell in row %}
+            <td>{{cell}}</td>
+            {% endfor %}
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+{% endblock body %}

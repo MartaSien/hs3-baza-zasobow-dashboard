@@ -1,20 +1,20 @@
-id,title,tags,url
-45,Jak stworzyć nowy wpis do bazy zasobów Hackerspace Trójmiasto?,[],https://kb.hs3.pl/t/45
-20,O kategorii: Baza Wiedzy Hackerspace'u,[],https://kb.hs3.pl/t/20
-108,PC Engines APU2 Router Box,"['cow-work', 'networking']",https://kb.hs3.pl/t/108
-61,HS3 BOFH,"['cow-work', 'garage', 'events', 'bofh']",https://kb.hs3.pl/t/61
-93,King Bob,['cow-work'],https://kb.hs3.pl/t/93
-92,Drukarka 3D Creality K1 Max,"['tools', 'workshop', '3d-print']",https://kb.hs3.pl/t/92
-91,Drukarka 3D Creality Ender 3,"['tools', 'workshop', '3d-print']",https://kb.hs3.pl/t/91
-90,Chciejlista,[],https://kb.hs3.pl/t/90
-85,Komu powinien służyć Spejs,[],https://kb.hs3.pl/t/85
-84,Budżet,[],https://kb.hs3.pl/t/84
-83,Hackerspace Dragon Dreaming,[],https://kb.hs3.pl/t/83
-82,Biblioteka,"['cow-work', 'books']",https://kb.hs3.pl/t/82
-66,Apteczki,"['cow-work', 'garage', 'bhp']",https://kb.hs3.pl/t/66
-44,Brayton Power,"['garage', 'projects']",https://kb.hs3.pl/t/44
-52,Evil Submarine,"['cow-work', 'projects']",https://kb.hs3.pl/t/52
-50,Infinity mirror (duże),"['garage', 'projects']",https://kb.hs3.pl/t/50
-47,Cricut Maker 3 ploter tnący,"['tools', 'workshop']",https://kb.hs3.pl/t/47
-41,Wiertarka PSB 500 RE BOSCH,"['garage', 'tools']",https://kb.hs3.pl/t/41
-46,What the Duck,"['cow-work', 'wled']",https://kb.hs3.pl/t/46
+id,title,tags
+45,"<a href=""https://kb.hs3.pl/t/45"">Jak stworzyć nowy wpis do bazy zasobów Hackerspace Trójmiasto?</a>",[]
+20,"<a href=""https://kb.hs3.pl/t/20"">O kategorii: Baza Wiedzy Hackerspace'u</a>",[]
+108,"<a href=""https://kb.hs3.pl/t/108"">PC Engines APU2 Router Box</a>","['cow-work', 'networking']"
+61,"<a href=""https://kb.hs3.pl/t/61"">HS3 BOFH</a>","['cow-work', 'garage', 'events', 'bofh']"
+93,"<a href=""https://kb.hs3.pl/t/93"">King Bob</a>",['cow-work']
+92,"<a href=""https://kb.hs3.pl/t/92"">Drukarka 3D Creality K1 Max</a>","['tools', 'workshop', '3d-print']"
+91,"<a href=""https://kb.hs3.pl/t/91"">Drukarka 3D Creality Ender 3</a>","['tools', 'workshop', '3d-print']"
+90,"<a href=""https://kb.hs3.pl/t/90"">Chciejlista</a>",[]
+85,"<a href=""https://kb.hs3.pl/t/85"">Komu powinien służyć Spejs</a>",[]
+84,"<a href=""https://kb.hs3.pl/t/84"">Budżet</a>",[]
+83,"<a href=""https://kb.hs3.pl/t/83"">Hackerspace Dragon Dreaming</a>",[]
+82,"<a href=""https://kb.hs3.pl/t/82"">Biblioteka</a>","['cow-work', 'books']"
+66,"<a href=""https://kb.hs3.pl/t/66"">Apteczki</a>","['cow-work', 'garage', 'bhp']"
+44,"<a href=""https://kb.hs3.pl/t/44"">Brayton Power</a>","['garage', 'projects']"
+52,"<a href=""https://kb.hs3.pl/t/52"">Evil Submarine</a>","['cow-work', 'projects']"
+50,"<a href=""https://kb.hs3.pl/t/50"">Infinity mirror (duże)</a>","['garage', 'projects']"
+47,"<a href=""https://kb.hs3.pl/t/47"">Cricut Maker 3 ploter tnący</a>","['tools', 'workshop']"
+41,"<a href=""https://kb.hs3.pl/t/41"">Wiertarka PSB 500 RE BOSCH</a>","['garage', 'tools']"
+46,"<a href=""https://kb.hs3.pl/t/46"">What the Duck</a>","['cow-work', 'wled']"

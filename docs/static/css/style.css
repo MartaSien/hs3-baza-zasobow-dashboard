@@ -1,0 +1,14 @@
+footer {
+    padding: 12px;
+    margin-top: auto;
+}
+
+/* || Sidenav */
+.sidenav {
+    width: 250px;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding: 6px 8px 6px 16px;
+}

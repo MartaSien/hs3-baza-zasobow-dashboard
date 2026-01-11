@@ -24,14 +24,10 @@ class Discourse():
     def category_topics_csv(self, category_id: str) -> requests.Response:
         """Save category topics to a csv file"""
         cat_data = self.get_category_data(category_id)
-        columns = ["id", "title", "tags", "url"]
+        columns = ["id", "title", "tags"]
         with open('zasoby.csv', 'w', encoding='UTF8') as f:
             write = csv.writer(f)
             write.writerow(columns)
             for topic in cat_data["topic_list"]["topics"]:
-                write.writerow([topic["id"], topic["title"], topic["tags"], f'{self.url}t/{topic["id"]}'])
-
-
-if __name__=="__main__":
-    dis = Discourse("https://kb.hs3.pl/")
-    dis.category_topics_csv(9)
+                html_url = f'<a href="{self.url}t/{topic["id"]}">{topic["title"]}</a>'
+                write.writerow([topic["id"], html_url, topic["tags"]])

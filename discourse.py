@@ -41,7 +41,7 @@ class DiscourseDatabase():
 
     def get_place(self, topic):
         """Get place of a topic"""
-        places = ["cow-work", "garage", "workshop"]
+        places = ["cow-work", "garage", "lab"]
         for place in places:
             if place in topic["tags"]:
                 return f'<a href="https://kb.hs3.pl/tag/{place}">{place}</a>'

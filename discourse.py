@@ -1,10 +1,11 @@
 '''
 Class to generate a csv file based on data fetched via Discourse REST API
 '''
-import requests
-import json
+import os
 import csv
-
+import json
+import requests
+from dotenv import load_dotenv
 
 DISCOURSE_URL = "https://kb.hs3.pl" # Database is hosted here
 CATEGORY_ID = 9 # Database category ID

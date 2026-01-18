@@ -74,3 +74,38 @@ class DiscourseDatabase():
             if place in topic["tags"]:
                 return f'<a href="https://kb.hs3.pl/tag/{place}">{place}</a>'
         return "unknown"
+    
+    def replace_string_in_post(self, topic_id: str, old_string: str, new_string: str) -> dict:
+        """Replace a selected string within a topic's first post using Discourse REST API"""
+        # Fetch the topic to get the first post ID
+        topic_url = f"{DISCOURSE_URL}/t/{topic_id}.json"
+        topic_res = requests.get(topic_url, headers=self.get_headers(auth=True))
+        topic_res.raise_for_status()
+        topic_data = topic_res.json()
+        
+        # Get the first post ID from the topic
+        first_post_id = topic_data["post_stream"]["posts"][0]["id"]
+        
+        # Fetch the post content
+        post_url = f"{DISCOURSE_URL}/posts/{first_post_id}.json"
+        post_res = requests.get(post_url, headers=self.get_headers(auth=True))
+        post_res.raise_for_status()
+        post_data = post_res.json()
+        
+        # Replace the string
+        updated_raw = post_data["raw"].replace(old_string, new_string)
+        
+        # Update the post
+        payload = {"post": {"raw": updated_raw}}
+        res = requests.put(post_url, json=payload, headers=self.get_headers(auth=True))
+        res.raise_for_status()
+        return res.json()
+    
+if __name__ == "__main__":
+    disc = DiscourseDatabase()
+    category = disc.get_category_data()
+    records = category["topic_list"]["topics"]
+    for topic in records:
+        if "lab" in topic["tags"]:
+            disc.replace_string_in_post(topic["id"], "[Workshop](https://kb.s.hs3.pl/tag/workshop)", "[Lab](https://kb.s.hs3.pl/tag/lab)")
+

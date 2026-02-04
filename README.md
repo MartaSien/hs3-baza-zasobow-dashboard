@@ -24,6 +24,10 @@ Skrypt, który generuje podsumowanie [Bazy Wiedzy zasobów Hackerspace Trójmias
 ID, nazwa, miejsce, ilość, opiekunowie, tagi
 ```
 
+## Automatyczna aktualizacja
+
+Żeby działały automatyczne aktualizacje przy użyciu GitHub Actions należy w sekretach dodać sekret o nazwie `PAT` którego wartością jest Personal Access Token z uprawnieniami do modyfikowania repozytorium.
+
 ## Możliwości dashboard'u
 
 - filtrowanie bazy zasobów po tagach

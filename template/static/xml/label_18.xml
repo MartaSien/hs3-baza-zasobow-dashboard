@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pt:document xmlns:pt="http://schemas.brother.info/ptouch/2007/lbx/main"
+    xmlns:style="http://schemas.brother.info/ptouch/2007/lbx/style"
+    xmlns:text="http://schemas.brother.info/ptouch/2007/lbx/text"
+    xmlns:draw="http://schemas.brother.info/ptouch/2007/lbx/draw"
+    xmlns:image="http://schemas.brother.info/ptouch/2007/lbx/image"
+    xmlns:barcode="http://schemas.brother.info/ptouch/2007/lbx/barcode"
+    xmlns:database="http://schemas.brother.info/ptouch/2007/lbx/database"
+    xmlns:table="http://schemas.brother.info/ptouch/2007/lbx/table"
+    xmlns:cable="http://schemas.brother.info/ptouch/2007/lbx/cable" version="1.7"
+    generator="P-touch Editor 5.4.016 Windows">
+    <pt:body currentSheet="Arkusz 1" direction="LTR">
+        <style:sheet name="Arkusz 1">
+            <style:paper media="0" width="51.2pt" height="70.8pt" marginLeft="3.2pt"
+                marginTop="5.6pt" marginRight="3.2pt" marginBottom="5.6pt" orientation="portrait"
+                autoLength="false" monochromeDisplay="true" printColorDisplay="false"
+                printColorsID="0" paperColor="#FFED00" paperInk="#000000" split="1" format="260"
+                backgroundTheme="0" printerID="26160" printerName="Brother PT-E550W" />
+            <style:cutLine regularCut="0pt" freeCut="" />
+            <style:backGround x="3.2pt" y="5.6pt" width="44.8pt" height="59.6pt" brushStyle="NULL"
+                brushId="0" userPattern="NONE" userPatternId="0" color="#000000"
+                printColorNumber="1" backColor="#FFFFFF" backPrintColorNumber="0" />
+            <pt:objects>
+                <barcode:barcode>
+                    <pt:objectStyle x="3.4pt" y="3.6pt" width="44.4pt" height="44.4pt"
+                        backColor="#FFFFFF" backPrintColorNumber="0" ropMode="COPYPEN" angle="0"
+                        anchor="TOPLEFT" flip="NONE">
+                        <pt:pen style="INSIDEFRAME" widthX="0.5pt" widthY="0.5pt" color="#000000"
+                            printColorNumber="1" />
+                        <pt:brush style="NULL" color="#000000" printColorNumber="1" id="0" />
+                        <pt:expanded objectName="Kod paskowy2" ID="0" lock="0"
+                            templateMergeTarget="LABELLIST" templateMergeType="NONE"
+                            templateMergeID="0" dbMergeFieldStyleName="qr" dbRecordOffset="0"
+                            linkStatus="NONE" linkID="0" />
+                    </pt:objectStyle>
+                    <barcode:barcodeStyle protocol="QRCODE" lengths="48" zeroFill="false"
+                        barWidth="1.2pt" barRatio="1:3" humanReadable="true"
+                        humanReadableAlignment="LEFT" checkDigit="false" autoLengths="true"
+                        margin="true" sameLengthBar="false" bearerBar="false" />
+                    <barcode:qrcodeStyle model="2" eccLevel="15%" cellSize="1.8pt" mbcs="auto"
+                        joint="1" version="auto" />
+                    <pt:data>https://hs3.pl/db/{ITEM_ID}</pt:data>
+                </barcode:barcode>
+                <pt:group>
+                    <pt:objectStyle x="4.8pt" y="55.6pt" width="41.6pt" height="12.1pt"
+                        backColor="#FFFFFF" backPrintColorNumber="0" ropMode="COPYPEN" angle="0"
+                        anchor="TOPLEFT" flip="NONE">
+                        <pt:pen style="INSIDEFRAME" widthX="0.5pt" widthY="0.5pt" color="#000000"
+                            printColorNumber="1" />
+                        <pt:brush style="NULL" color="#000000" printColorNumber="1" id="0" />
+                        <pt:expanded objectName="Grupuj11" ID="0" lock="2"
+                            templateMergeTarget="LABELLIST" templateMergeType="NONE"
+                            templateMergeID="0" linkStatus="NONE" linkID="0" />
+                    </pt:objectStyle>
+                    <pt:objects>
+                        <text:text>
+                            <pt:objectStyle x="20.8pt" y="55.6pt" width="25.6pt" height="12.1pt"
+                                backColor="#FFFFFF" backPrintColorNumber="0" ropMode="COPYPEN"
+                                angle="0" anchor="TOPLEFT" flip="NONE">
+                                <pt:pen style="NULL" widthX="0.5pt" widthY="0.5pt" color="#000000"
+                                    printColorNumber="1" />
+                                <pt:brush style="NULL" color="#000000" printColorNumber="1" id="0" />
+                                <pt:expanded objectName="Tekst4" ID="0" lock="0"
+                                    templateMergeTarget="LABELLIST" templateMergeType="NONE"
+                                    templateMergeID="0" linkStatus="NONE" linkID="0" />
+                            </pt:objectStyle>
+                            <text:ptFontInfo>
+                                <text:logFont name="Source Code Pro" width="0" italic="false"
+                                    weight="700" charSet="238" pitchAndFamily="49" />
+                                <text:fontExt effect="NOEFFECT" underline="0" strikeout="0"
+                                    size="8pt" orgSize="28.8pt" textColor="#000000"
+                                    textPrintColorNumber="1" />
+                            </text:ptFontInfo>
+                            <text:textControl control="FREE" clipFrame="false" aspectNormal="false"
+                                shrink="false" autoLF="false" avoidImage="false" />
+                            <text:textAlign horizontalAlignment="LEFT" verticalAlignment="CENTER"
+                                inLineAlignment="CENTER" />
+                            <text:textStyle vertical="false" nullBlock="false" charSpace="0"
+                                lineSpace="0" orgPoint="8pt" combinedChars="false" />
+                            <pt:data></pt:data>
+                            <text:stringItem charLen="1">
+                                <text:ptFontInfo>
+                                    <text:logFont name="Source Code Pro" width="0" italic="false"
+                                        weight="700" charSet="238" pitchAndFamily="49" />
+                                    <text:fontExt effect="NOEFFECT" underline="0" strikeout="0"
+                                        size="8pt" orgSize="28.8pt" textColor="#000000"
+                                        textPrintColorNumber="1" />
+                                </text:ptFontInfo>
+                                <text:innerObject>
+                                    <text:text>
+                                        <pt:objectStyle x="20.8pt" y="55.6pt" width="24.8pt"
+                                            height="12.1pt" backColor="#FFFFFF"
+                                            backPrintColorNumber="0" ropMode="COPYPEN" angle="0"
+                                            anchor="TOPLEFT" flip="NONE">
+                                            <pt:pen style="NULL" widthX="0.5pt" widthY="0.5pt"
+                                                color="#000000" printColorNumber="1" />
+                                            <pt:brush style="NULL" color="#000000"
+                                                printColorNumber="1" id="0" />
+                                            <pt:expanded objectName="nazwa" ID="0" lock="0"
+                                                templateMergeTarget="LABELLIST"
+                                                templateMergeType="NONE" templateMergeID="0"
+                                                dbMergeFieldStyleName="nazwa" dbRecordOffset="0"
+                                                linkStatus="NONE" linkID="0" />
+                                        </pt:objectStyle>
+                                        <text:ptFontInfo>
+                                            <text:logFont name="Source Code Pro" width="0"
+                                                italic="false" weight="700" charSet="238"
+                                                pitchAndFamily="49" />
+                                            <text:fontExt effect="NOEFFECT" underline="0"
+                                                strikeout="0" size="8pt" orgSize="28.8pt"
+                                                textColor="#000000" textPrintColorNumber="1" />
+                                        </text:ptFontInfo>
+                                        <text:textControl control="FREE" clipFrame="false"
+                                            aspectNormal="false" shrink="false" autoLF="false"
+                                            avoidImage="false" />
+                                        <text:textAlign horizontalAlignment="LEFT"
+                                            verticalAlignment="CENTER" inLineAlignment="BASELINE" />
+                                        <text:textStyle vertical="false" nullBlock="false"
+                                            charSpace="0" lineSpace="0" orgPoint="8pt"
+                                            combinedChars="false" />
+                                        <pt:data>{ITEM_ID}</pt:data>
+                                        <text:stringItem charLen="5">
+                                            <text:ptFontInfo>
+                                                <text:logFont name="Source Code Pro" width="0"
+                                                    italic="false" weight="700" charSet="238"
+                                                    pitchAndFamily="49" />
+                                                <text:fontExt effect="NOEFFECT" underline="0"
+                                                    strikeout="0" size="8pt" orgSize="28.8pt"
+                                                    textColor="#000000" textPrintColorNumber="1" />
+                                            </text:ptFontInfo>
+                                        </text:stringItem>
+                                    </text:text>
+                                </text:innerObject>
+                            </text:stringItem>
+                        </text:text>
+                        <text:text>
+                            <pt:objectStyle x="4.8pt" y="55.6pt" width="15.2pt" height="12.1pt"
+                                backColor="#FFFFFF" backPrintColorNumber="0" ropMode="COPYPEN"
+                                angle="0" anchor="TOPLEFT" flip="NONE">
+                                <pt:pen style="NULL" widthX="0.5pt" widthY="0.5pt" color="#000000"
+                                    printColorNumber="1" />
+                                <pt:brush style="NULL" color="#000000" printColorNumber="1" id="0" />
+                                <pt:expanded objectName="Tekst5" ID="0" lock="0"
+                                    templateMergeTarget="LABELLIST" templateMergeType="NONE"
+                                    templateMergeID="0" linkStatus="NONE" linkID="0" />
+                            </pt:objectStyle>
+                            <text:ptFontInfo>
+                                <text:logFont name="Source Code Pro" width="0" italic="false"
+                                    weight="800" charSet="238" pitchAndFamily="49" />
+                                <text:fontExt effect="NOEFFECT" underline="0" strikeout="0"
+                                    size="8pt" orgSize="28.8pt" textColor="#000000"
+                                    textPrintColorNumber="1" />
+                            </text:ptFontInfo>
+                            <text:textControl control="FREE" clipFrame="false" aspectNormal="false"
+                                shrink="false" autoLF="false" avoidImage="false" />
+                            <text:textAlign horizontalAlignment="LEFT" verticalAlignment="CENTER"
+                                inLineAlignment="CENTER" />
+                            <text:textStyle vertical="false" nullBlock="false" charSpace="0"
+                                lineSpace="0" orgPoint="8pt" combinedChars="false" />
+                            <pt:data>ID:</pt:data>
+                            <text:stringItem charLen="2">
+                                <text:ptFontInfo>
+                                    <text:logFont name="Source Code Pro" width="0" italic="false"
+                                        weight="800" charSet="238" pitchAndFamily="49" />
+                                    <text:fontExt effect="NOEFFECT" underline="0" strikeout="0"
+                                        size="8pt" orgSize="28.8pt" textColor="#000000"
+                                        textPrintColorNumber="1" />
+                                </text:ptFontInfo>
+                            </text:stringItem>
+                            <text:stringItem charLen="1">
+                                <text:ptFontInfo>
+                                    <text:logFont name="Source Code Pro" width="0" italic="false"
+                                        weight="800" charSet="238" pitchAndFamily="49" />
+                                    <text:fontExt effect="NOEFFECT" underline="0" strikeout="0"
+                                        size="8pt" orgSize="28.8pt" textColor="#000000"
+                                        textPrintColorNumber="1" />
+                                </text:ptFontInfo>
+                            </text:stringItem>
+                        </text:text>
+                    </pt:objects>
+                </pt:group>
+                <text:text>
+                    <pt:objectStyle x="-6.8pt" y="29.6pt" width="2pt" height="4pt"
+                        backColor="#FFFFFF" backPrintColorNumber="0" ropMode="COPYPEN" angle="0"
+                        anchor="TOPLEFT" flip="NONE">
+                        <pt:pen style="NULL" widthX="0.5pt" widthY="0.5pt" color="#000000"
+                            printColorNumber="1" />
+                        <pt:brush style="NULL" color="#000000" printColorNumber="1" id="0" />
+                        <pt:expanded objectName="Tekst6" ID="0" lock="0"
+                            templateMergeTarget="LABELLIST" templateMergeType="NONE"
+                            templateMergeID="0" linkStatus="NONE" linkID="0" />
+                    </pt:objectStyle>
+                    <text:ptFontInfo>
+                        <text:logFont name="Arial" width="0" italic="false" weight="400"
+                            charSet="238" pitchAndFamily="34" />
+                        <text:fontExt effect="NOEFFECT" underline="0" strikeout="0" size="5pt"
+                            orgSize="28.8pt" textColor="#000000" textPrintColorNumber="1" />
+                    </text:ptFontInfo>
+                    <text:textControl control="LONGTEXTFIXED" clipFrame="false" aspectNormal="true"
+                        shrink="true" autoLF="true" avoidImage="false" />
+                    <text:textAlign horizontalAlignment="JUSTIFY" verticalAlignment="CENTER"
+                        inLineAlignment="CENTER" />
+                    <text:textStyle vertical="true" nullBlock="false" charSpace="0" lineSpace="0"
+                        orgPoint="5pt" combinedChars="false" />
+                    <pt:data></pt:data>
+                </text:text>
+                <text:text>
+                    <pt:objectStyle x="10.8pt" y="46.5pt" width="29.6pt" height="12.1pt"
+                        backColor="#FFFFFF" backPrintColorNumber="0" ropMode="COPYPEN" angle="0"
+                        anchor="TOPLEFT" flip="NONE">
+                        <pt:pen style="NULL" widthX="0.5pt" widthY="0.5pt" color="#000000"
+                            printColorNumber="1" />
+                        <pt:brush style="NULL" color="#000000" printColorNumber="1" id="0" />
+                        <pt:expanded objectName="Tekst5" ID="0" lock="0"
+                            templateMergeTarget="LABELLIST" templateMergeType="NONE"
+                            templateMergeID="0" linkStatus="NONE" linkID="0" />
+                    </pt:objectStyle>
+                    <text:ptFontInfo>
+                        <text:logFont name="Source Code Pro" width="0" italic="false" weight="800"
+                            charSet="238" pitchAndFamily="49" />
+                        <text:fontExt effect="NOEFFECT" underline="0" strikeout="0" size="8pt"
+                            orgSize="28.8pt" textColor="#000000" textPrintColorNumber="1" />
+                    </text:ptFontInfo>
+                    <text:textControl control="FREE" clipFrame="false" aspectNormal="false"
+                        shrink="false" autoLF="false" avoidImage="false" />
+                    <text:textAlign horizontalAlignment="CENTER" verticalAlignment="CENTER"
+                        inLineAlignment="CENTER" />
+                    <text:textStyle vertical="false" nullBlock="false" charSpace="0" lineSpace="0"
+                        orgPoint="8pt" combinedChars="false" />
+                    <pt:data>HS3-DB</pt:data>
+                    <text:stringItem charLen="2">
+                        <text:ptFontInfo>
+                            <text:logFont name="Source Code Pro" width="0" italic="false"
+                                weight="800" charSet="238" pitchAndFamily="49" />
+                            <text:fontExt effect="NOEFFECT" underline="0" strikeout="0" size="8pt"
+                                orgSize="28.8pt" textColor="#000000" textPrintColorNumber="1" />
+                        </text:ptFontInfo>
+                    </text:stringItem>
+                    <text:stringItem charLen="1">
+                        <text:ptFontInfo>
+                            <text:logFont name="Source Code Pro" width="0" italic="false"
+                                weight="800" charSet="238" pitchAndFamily="49" />
+                            <text:fontExt effect="NOEFFECT" underline="0" strikeout="0" size="8pt"
+                                orgSize="28.8pt" textColor="#000000" textPrintColorNumber="1" />
+                        </text:ptFontInfo>
+                    </text:stringItem>
+                    <text:stringItem charLen="1">
+                        <text:ptFontInfo>
+                            <text:logFont name="Source Code Pro" width="0" italic="false"
+                                weight="800" charSet="238" pitchAndFamily="49" />
+                            <text:fontExt effect="NOEFFECT" underline="0" strikeout="0" size="8pt"
+                                orgSize="28.8pt" textColor="#000000" textPrintColorNumber="1" />
+                        </text:ptFontInfo>
+                    </text:stringItem>
+                    <text:stringItem charLen="2">
+                        <text:ptFontInfo>
+                            <text:logFont name="Source Code Pro" width="0" italic="false"
+                                weight="800" charSet="238" pitchAndFamily="49" />
+                            <text:fontExt effect="NOEFFECT" underline="0" strikeout="0" size="8pt"
+                                orgSize="28.8pt" textColor="#000000" textPrintColorNumber="1" />
+                        </text:ptFontInfo>
+                    </text:stringItem>
+                </text:text>
+            </pt:objects>
+            <style:paper media="0" width="51.2pt" height="70.8pt" marginLeft="3.2pt"
+                marginTop="5.6pt" marginRight="3.2pt" marginBottom="5.6pt" orientation="portrait"
+                autoLength="false" monochromeDisplay="true" printColorDisplay="false"
+                printColorsID="0" paperColor="#FFED00" paperInk="#000000" split="1" format="260"
+                backgroundTheme="0" printerID="26160" printerName="Brother PT-E550W" />
+            <style:cutLine regularCut="0pt" freeCut="" />
+            <style:backGround x="3.2pt" y="5.6pt" width="44.8pt" height="59.6pt" brushStyle="NULL"
+                brushId="0" userPattern="NONE" userPatternId="0" color="#000000"
+                printColorNumber="1" backColor="#FFFFFF" backPrintColorNumber="0" />
+            <pt:objects>
+                <barcode:barcode>
+                    <pt:objectStyle x="3.4pt" y="3.6pt" width="44.4pt" height="44.4pt"
+                        backColor="#FFFFFF" backPrintColorNumber="0" ropMode="COPYPEN" angle="0"
+                        anchor="TOPLEFT" flip="NONE">
+                        <pt:pen style="INSIDEFRAME" widthX="0.5pt" widthY="0.5pt" color="#000000"
+                            printColorNumber="1" />
+                        <pt:brush style="NULL" color="#000000" printColorNumber="1" id="0" />
+                        <pt:expanded objectName="Kod paskowy2" ID="0" lock="0"
+                            templateMergeTarget="LABELLIST" templateMergeType="NONE"
+                            templateMergeID="0" dbMergeFieldStyleName="qr" dbRecordOffset="0"
+                            linkStatus="NONE" linkID="0" />
+                    </pt:objectStyle>
+                    <barcode:barcodeStyle protocol="QRCODE" lengths="48" zeroFill="false"
+                        barWidth="1.2pt" barRatio="1:3" humanReadable="true"
+                        humanReadableAlignment="LEFT" checkDigit="false" autoLengths="true"
+                        margin="true" sameLengthBar="false" bearerBar="false" />
+                    <barcode:qrcodeStyle model="2" eccLevel="15%" cellSize="1.8pt" mbcs="auto"
+                        joint="1" version="auto" />
+                    <pt:data>https://hs3.pl/db/{ITEM_ID}</pt:data>
+                </barcode:barcode>
+                <pt:group>
+                    <pt:objectStyle x="4.8pt" y="55.6pt" width="41.6pt" height="12.1pt"
+                        backColor="#FFFFFF" backPrintColorNumber="0" ropMode="COPYPEN" angle="0"
+                        anchor="TOPLEFT" flip="NONE">
+                        <pt:pen style="INSIDEFRAME" widthX="0.5pt" widthY="0.5pt" color="#000000"
+                            printColorNumber="1" />
+                        <pt:brush style="NULL" color="#000000" printColorNumber="1" id="0" />
+                        <pt:expanded objectName="Grupuj11" ID="0" lock="2"
+                            templateMergeTarget="LABELLIST" templateMergeType="NONE"
+                            templateMergeID="0" linkStatus="NONE" linkID="0" />
+                    </pt:objectStyle>
+                    <pt:objects>
+                        <text:text>
+                            <pt:objectStyle x="20.8pt" y="55.6pt" width="25.6pt" height="12.1pt"
+                                backColor="#FFFFFF" backPrintColorNumber="0" ropMode="COPYPEN"
+                                angle="0" anchor="TOPLEFT" flip="NONE">
+                                <pt:pen style="NULL" widthX="0.5pt" widthY="0.5pt" color="#000000"
+                                    printColorNumber="1" />
+                                <pt:brush style="NULL" color="#000000" printColorNumber="1" id="0" />
+                                <pt:expanded objectName="Tekst4" ID="0" lock="0"
+                                    templateMergeTarget="LABELLIST" templateMergeType="NONE"
+                                    templateMergeID="0" linkStatus="NONE" linkID="0" />
+                            </pt:objectStyle>
+                            <text:ptFontInfo>
+                                <text:logFont name="Source Code Pro" width="0" italic="false"
+                                    weight="700" charSet="238" pitchAndFamily="49" />
+                                <text:fontExt effect="NOEFFECT" underline="0" strikeout="0"
+                                    size="8pt" orgSize="28.8pt" textColor="#000000"
+                                    textPrintColorNumber="1" />
+                            </text:ptFontInfo>
+                            <text:textControl control="FREE" clipFrame="false" aspectNormal="false"
+                                shrink="false" autoLF="false" avoidImage="false" />
+                            <text:textAlign horizontalAlignment="LEFT" verticalAlignment="CENTER"
+                                inLineAlignment="CENTER" />
+                            <text:textStyle vertical="false" nullBlock="false" charSpace="0"
+                                lineSpace="0" orgPoint="8pt" combinedChars="false" />
+                            <pt:data></pt:data>
+                            <text:stringItem charLen="1">
+                                <text:ptFontInfo>
+                                    <text:logFont name="Source Code Pro" width="0" italic="false"
+                                        weight="700" charSet="238" pitchAndFamily="49" />
+                                    <text:fontExt effect="NOEFFECT" underline="0" strikeout="0"
+                                        size="8pt" orgSize="28.8pt" textColor="#000000"
+                                        textPrintColorNumber="1" />
+                                </text:ptFontInfo>
+                                <text:innerObject>
+                                    <text:text>
+                                        <pt:objectStyle x="20.8pt" y="55.6pt" width="24.8pt"
+                                            height="12.1pt" backColor="#FFFFFF"
+                                            backPrintColorNumber="0" ropMode="COPYPEN" angle="0"
+                                            anchor="TOPLEFT" flip="NONE">
+                                            <pt:pen style="NULL" widthX="0.5pt" widthY="0.5pt"
+                                                color="#000000" printColorNumber="1" />
+                                            <pt:brush style="NULL" color="#000000"
+                                                printColorNumber="1" id="0" />
+                                            <pt:expanded objectName="nazwa" ID="0" lock="0"
+                                                templateMergeTarget="LABELLIST"
+                                                templateMergeType="NONE" templateMergeID="0"
+                                                dbMergeFieldStyleName="nazwa" dbRecordOffset="0"
+                                                linkStatus="NONE" linkID="0" />
+                                        </pt:objectStyle>
+                                        <text:ptFontInfo>
+                                            <text:logFont name="Source Code Pro" width="0"
+                                                italic="false" weight="700" charSet="238"
+                                                pitchAndFamily="49" />
+                                            <text:fontExt effect="NOEFFECT" underline="0"
+                                                strikeout="0" size="8pt" orgSize="28.8pt"
+                                                textColor="#000000" textPrintColorNumber="1" />
+                                        </text:ptFontInfo>
+                                        <text:textControl control="FREE" clipFrame="false"
+                                            aspectNormal="false" shrink="false" autoLF="false"
+                                            avoidImage="false" />
+                                        <text:textAlign horizontalAlignment="LEFT"
+                                            verticalAlignment="CENTER" inLineAlignment="BASELINE" />
+                                        <text:textStyle vertical="false" nullBlock="false"
+                                            charSpace="0" lineSpace="0" orgPoint="8pt"
+                                            combinedChars="false" />
+                                        <pt:data>{ITEM_ID}</pt:data>
+                                        <text:stringItem charLen="5">
+                                            <text:ptFontInfo>
+                                                <text:logFont name="Source Code Pro" width="0"
+                                                    italic="false" weight="700" charSet="238"
+                                                    pitchAndFamily="49" />
+                                                <text:fontExt effect="NOEFFECT" underline="0"
+                                                    strikeout="0" size="8pt" orgSize="28.8pt"
+                                                    textColor="#000000" textPrintColorNumber="1" />
+                                            </text:ptFontInfo>
+                                        </text:stringItem>
+                                    </text:text>
+                                </text:innerObject>
+                            </text:stringItem>
+                        </text:text>
+                        <text:text>
+                            <pt:objectStyle x="4.8pt" y="55.6pt" width="15.2pt" height="12.1pt"
+                                backColor="#FFFFFF" backPrintColorNumber="0" ropMode="COPYPEN"
+                                angle="0" anchor="TOPLEFT" flip="NONE">
+                                <pt:pen style="NULL" widthX="0.5pt" widthY="0.5pt" color="#000000"
+                                    printColorNumber="1" />
+                                <pt:brush style="NULL" color="#000000" printColorNumber="1" id="0" />
+                                <pt:expanded objectName="Tekst5" ID="0" lock="0"
+                                    templateMergeTarget="LABELLIST" templateMergeType="NONE"
+                                    templateMergeID="0" linkStatus="NONE" linkID="0" />
+                            </pt:objectStyle>
+                            <text:ptFontInfo>
+                                <text:logFont name="Source Code Pro" width="0" italic="false"
+                                    weight="800" charSet="238" pitchAndFamily="49" />
+                                <text:fontExt effect="NOEFFECT" underline="0" strikeout="0"
+                                    size="8pt" orgSize="28.8pt" textColor="#000000"
+                                    textPrintColorNumber="1" />
+                            </text:ptFontInfo>
+                            <text:textControl control="FREE" clipFrame="false" aspectNormal="false"
+                                shrink="false" autoLF="false" avoidImage="false" />
+                            <text:textAlign horizontalAlignment="LEFT" verticalAlignment="CENTER"
+                                inLineAlignment="CENTER" />
+                            <text:textStyle vertical="false" nullBlock="false" charSpace="0"
+                                lineSpace="0" orgPoint="8pt" combinedChars="false" />
+                            <pt:data>ID:</pt:data>
+                            <text:stringItem charLen="2">
+                                <text:ptFontInfo>
+                                    <text:logFont name="Source Code Pro" width="0" italic="false"
+                                        weight="800" charSet="238" pitchAndFamily="49" />
+                                    <text:fontExt effect="NOEFFECT" underline="0" strikeout="0"
+                                        size="8pt" orgSize="28.8pt" textColor="#000000"
+                                        textPrintColorNumber="1" />
+                                </text:ptFontInfo>
+                            </text:stringItem>
+                            <text:stringItem charLen="1">
+                                <text:ptFontInfo>
+                                    <text:logFont name="Source Code Pro" width="0" italic="false"
+                                        weight="800" charSet="238" pitchAndFamily="49" />
+                                    <text:fontExt effect="NOEFFECT" underline="0" strikeout="0"
+                                        size="8pt" orgSize="28.8pt" textColor="#000000"
+                                        textPrintColorNumber="1" />
+                                </text:ptFontInfo>
+                            </text:stringItem>
+                        </text:text>
+                    </pt:objects>
+                </pt:group>
+                <text:text>
+                    <pt:objectStyle x="-6.8pt" y="29.6pt" width="2pt" height="4pt"
+                        backColor="#FFFFFF" backPrintColorNumber="0" ropMode="COPYPEN" angle="0"
+                        anchor="TOPLEFT" flip="NONE">
+                        <pt:pen style="NULL" widthX="0.5pt" widthY="0.5pt" color="#000000"
+                            printColorNumber="1" />
+                        <pt:brush style="NULL" color="#000000" printColorNumber="1" id="0" />
+                        <pt:expanded objectName="Tekst6" ID="0" lock="0"
+                            templateMergeTarget="LABELLIST" templateMergeType="NONE"
+                            templateMergeID="0" linkStatus="NONE" linkID="0" />
+                    </pt:objectStyle>
+                    <text:ptFontInfo>
+                        <text:logFont name="Arial" width="0" italic="false" weight="400"
+                            charSet="238" pitchAndFamily="34" />
+                        <text:fontExt effect="NOEFFECT" underline="0" strikeout="0" size="5pt"
+                            orgSize="28.8pt" textColor="#000000" textPrintColorNumber="1" />
+                    </text:ptFontInfo>
+                    <text:textControl control="LONGTEXTFIXED" clipFrame="false" aspectNormal="true"
+                        shrink="true" autoLF="true" avoidImage="false" />
+                    <text:textAlign horizontalAlignment="JUSTIFY" verticalAlignment="CENTER"
+                        inLineAlignment="CENTER" />
+                    <text:textStyle vertical="true" nullBlock="false" charSpace="0" lineSpace="0"
+                        orgPoint="5pt" combinedChars="false" />
+                    <pt:data></pt:data>
+                </text:text>
+                <text:text>
+                    <pt:objectStyle x="10.8pt" y="46.5pt" width="29.6pt" height="12.1pt"
+                        backColor="#FFFFFF" backPrintColorNumber="0" ropMode="COPYPEN" angle="0"
+                        anchor="TOPLEFT" flip="NONE">
+                        <pt:pen style="NULL" widthX="0.5pt" widthY="0.5pt" color="#000000"
+                            printColorNumber="1" />
+                        <pt:brush style="NULL" color="#000000" printColorNumber="1" id="0" />
+                        <pt:expanded objectName="Tekst5" ID="0" lock="0"
+                            templateMergeTarget="LABELLIST" templateMergeType="NONE"
+                            templateMergeID="0" linkStatus="NONE" linkID="0" />
+                    </pt:objectStyle>
+                    <text:ptFontInfo>
+                        <text:logFont name="Source Code Pro" width="0" italic="false" weight="800"
+                            charSet="238" pitchAndFamily="49" />
+                        <text:fontExt effect="NOEFFECT" underline="0" strikeout="0" size="8pt"
+                            orgSize="28.8pt" textColor="#000000" textPrintColorNumber="1" />
+                    </text:ptFontInfo>
+                    <text:textControl control="FREE" clipFrame="false" aspectNormal="false"
+                        shrink="false" autoLF="false" avoidImage="false" />
+                    <text:textAlign horizontalAlignment="CENTER" verticalAlignment="CENTER"
+                        inLineAlignment="CENTER" />
+                    <text:textStyle vertical="false" nullBlock="false" charSpace="0" lineSpace="0"
+                        orgPoint="8pt" combinedChars="false" />
+                    <pt:data>HS3-DB</pt:data>
+                    <text:stringItem charLen="2">
+                        <text:ptFontInfo>
+                            <text:logFont name="Source Code Pro" width="0" italic="false"
+                                weight="800" charSet="238" pitchAndFamily="49" />
+                            <text:fontExt effect="NOEFFECT" underline="0" strikeout="0" size="8pt"
+                                orgSize="28.8pt" textColor="#000000" textPrintColorNumber="1" />
+                        </text:ptFontInfo>
+                    </text:stringItem>
+                    <text:stringItem charLen="1">
+                        <text:ptFontInfo>
+                            <text:logFont name="Source Code Pro" width="0" italic="false"
+                                weight="800" charSet="238" pitchAndFamily="49" />
+                            <text:fontExt effect="NOEFFECT" underline="0" strikeout="0" size="8pt"
+                                orgSize="28.8pt" textColor="#000000" textPrintColorNumber="1" />
+                        </text:ptFontInfo>
+                    </text:stringItem>
+                    <text:stringItem charLen="1">
+                        <text:ptFontInfo>
+                            <text:logFont name="Source Code Pro" width="0" italic="false"
+                                weight="800" charSet="238" pitchAndFamily="49" />
+                            <text:fontExt effect="NOEFFECT" underline="0" strikeout="0" size="8pt"
+                                orgSize="28.8pt" textColor="#000000" textPrintColorNumber="1" />
+                        </text:ptFontInfo>
+                    </text:stringItem>
+                    <text:stringItem charLen="2">
+                        <text:ptFontInfo>
+                            <text:logFont name="Source Code Pro" width="0" italic="false"
+                                weight="800" charSet="238" pitchAndFamily="49" />
+                            <text:fontExt effect="NOEFFECT" underline="0" strikeout="0" size="8pt"
+                                orgSize="28.8pt" textColor="#000000" textPrintColorNumber="1" />
+                        </text:ptFontInfo>
+                    </text:stringItem>
+                </text:text>
+            </pt:objects>
+        </style:sheet>
+    </pt:body>
+</pt:document>

@@ -9,7 +9,13 @@ from dotenv import load_dotenv
 
 DISCOURSE_URL = "https://kb.hs3.pl" # Database is hosted here
 CATEGORY_ID = 9 # Database category ID
-
+PLACES = [
+    "cow-work",
+    "garage",
+    "lab",
+    "audiolab",
+    "server-room"
+]
 class DiscourseDatabase():
     def __init__(self):
         data = self.get_category_data()
@@ -69,8 +75,7 @@ class DiscourseDatabase():
 
     def get_place(self, topic):
         """Get place of a topic"""
-        places = ["cow-work", "garage", "lab"]
-        for place in places:
+        for place in PLACES:
             if place in topic["tags"]:
                 return f'<a href="https://kb.hs3.pl/tag/{place}">{place}</a>'
         return "unknown"

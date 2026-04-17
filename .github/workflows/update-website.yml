@@ -2,6 +2,8 @@
 name: Update website
 
 on:
+  schedule:
+    - cron: "0 4 * * *"
   # Runs on pushes targeting the default branch
   pull_request:
     branches: ["master"]
